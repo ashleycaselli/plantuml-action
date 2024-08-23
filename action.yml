@@ -1,5 +1,5 @@
-name: "PlantUML Action"
-description: "Generated diagrams from PlantUML files"
+name: "PlantUML Diagram Generator"
+description: "Generate diagrams from PlantUML files"
 author: "@ashleycaselli"
 inputs:
   format:
