@@ -1,0 +1,19 @@
+name: "PlantUML Action"
+description: "Generated diagrams from PlantUML files"
+author: "@ashleycaselli"
+inputs:
+  format:
+    description: "Output format"
+    required: false
+    default: "pdf"
+  pattern:
+    description: "Files/Dirs to process"
+    required: true
+    default: "**.puml"
+runs:
+  using: "docker"
+  image: "docker://ashleycaselli/plantuml:1.0.1"
+  args:
+    - "-verbose"
+    - "-t${{ inputs.format }}"
+    - "${{ inputs.pattern }}"
