@@ -1,4 +1,4 @@
-name: "PlantUML Diagram Generator"
+name: "PlantUML Diagram Renderer"
 description: "Generate diagrams from PlantUML files"
 author: "@ashleycaselli"
 inputs:
