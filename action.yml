@@ -17,3 +17,6 @@ runs:
     - "-verbose"
     - "-t${{ inputs.format }}"
     - "${{ inputs.pattern }}"
+branding:
+  icon: "aperture"
+  color: "orange"
